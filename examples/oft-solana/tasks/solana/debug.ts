@@ -12,7 +12,8 @@ import { OftPDA, oft } from '@layerzerolabs/oft-v2-solana-sdk'
 import { EndpointV2 } from '@layerzerolabs/protocol-devtools-solana'
 
 import { getSolanaReceiveConfig, getSolanaSendConfig } from '../common/taskHelper'
-import { DebugLogger, createSolanaConnectionFactory, decodeLzReceiveOptions, uint8ArrayToHex } from '../common/utils'
+import { DebugLogger, decodeLzReceiveOptions, uint8ArrayToHex } from '../common/utils'
+import { createSolanaConnectionFactory } from '@layerzerolabs/devtools-solana/helpers'
 
 import { deriveConnection, getSolanaDeployment } from './index'
 

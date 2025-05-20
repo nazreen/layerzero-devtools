@@ -7,7 +7,7 @@ import { types } from '@layerzerolabs/devtools-evm-hardhat'
 import { EndpointId } from '@layerzerolabs/lz-definitions'
 import { OftPDA, accounts } from '@layerzerolabs/oft-v2-solana-sdk'
 
-import { createSolanaConnectionFactory } from '../common/utils'
+import { createSolanaConnectionFactory } from '@layerzerolabs/devtools-solana/helpers'
 
 interface Args {
     mint: string

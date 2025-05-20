@@ -21,7 +21,11 @@ import { getSolanaDeployment, useWeb3Js } from '../solana'
 
 import { configureLzAppGraph } from './taskHelper'
 import { publicKey } from './types'
-import { createSdkFactory, createSolanaConnectionFactory, createSolanaSignerFactory } from './utils'
+import {
+    createSdkFactory,
+    createSolanaConnectionFactory,
+    createSolanaSignerFactory,
+} from '@layerzerolabs/devtools-solana/helpers'
 
 import type { SignAndSendTaskArgs } from '@layerzerolabs/devtools-evm-hardhat/tasks'
 

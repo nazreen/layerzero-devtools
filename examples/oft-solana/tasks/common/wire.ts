@@ -21,11 +21,13 @@ import { publicKey as publicKeyType } from './types'
 import {
     DebugLogger,
     KnownErrors,
+    getSolanaUlnConfigPDAs,
+} from './utils'
+import {
     createSdkFactory,
     createSolanaConnectionFactory,
     createSolanaSignerFactory,
-    getSolanaUlnConfigPDAs,
-} from './utils'
+} from '@layerzerolabs/devtools-solana/helpers'
 
 import type { SignAndSendTaskArgs } from '@layerzerolabs/devtools-evm-hardhat/tasks'
 
