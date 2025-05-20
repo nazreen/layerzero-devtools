@@ -14,7 +14,7 @@ import { EndpointId } from '@layerzerolabs/lz-definitions'
 import { OftPDA, oft202 } from '@layerzerolabs/oft-v2-solana-sdk'
 import { createOFTFactory } from '@layerzerolabs/ua-devtools-solana'
 
-import { createSolanaConnectionFactory } from '../common/utils'
+import { createSolanaConnectionFactory } from '@layerzerolabs/devtools-solana/helpers'
 
 interface Args {
     mint: string
